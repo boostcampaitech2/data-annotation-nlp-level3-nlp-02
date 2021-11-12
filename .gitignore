@@ -6,3 +6,7 @@ results/**
 prediction/**
 
 ._*
+
+*.json
+abc.zip
+tagtog_relation_extraction/*
