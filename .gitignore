@@ -1,0 +1,8 @@
+__pycache__
+
+logs/**
+best_models/**
+results/**
+prediction/**
+
+._*
