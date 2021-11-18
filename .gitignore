@@ -10,3 +10,4 @@ prediction/**
 *.json
 abc.zip
 tagtog_relation_extraction/*
+*.sh
