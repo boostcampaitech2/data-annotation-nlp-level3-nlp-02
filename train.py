@@ -81,7 +81,7 @@ def train():
     dev_ratio = 0.2
 
     # load dataset
-    dataset = load_data("./data/train/data.csv")
+    dataset = load_data("./data/startup.csv")
     label = label_to_num(dataset['label'].values)
 
     # tokenizing dataset
