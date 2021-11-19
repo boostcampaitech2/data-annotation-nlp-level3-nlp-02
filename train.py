@@ -108,7 +108,7 @@ def train():
     training_args = TrainingArguments(
         output_dir='./results',          # output directory
         save_total_limit=5,              # number of total save model.
-        save_steps=140,                 # model saving step.
+        save_steps=100,                 # model saving step.
         num_train_epochs=20,              # total number of training epochs
         learning_rate=5e-5,               # learning_rate
         per_device_train_batch_size=16,  # batch size per device during training
@@ -121,7 +121,7 @@ def train():
                                      # `no`: No evaluation during training.
                                      # `steps`: Evaluate every `eval_steps`.
                                      # `epoch`: Evaluate every end of epoch.
-        eval_steps = 140,            # evaluation step.
+        eval_steps = 100,            # evaluation step.
         load_best_model_at_end = True,
         report_to="wandb"
     )
